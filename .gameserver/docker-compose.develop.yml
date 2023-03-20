@@ -37,7 +37,7 @@ services:
       - pgsql
       - redis
   schedule:
-    image: php:8.1-fpm
+    image: php:8.2-fpm
     container_name: default-structure-schedule
     restart: always
     command:
@@ -57,7 +57,7 @@ services:
       - pgsql
       - redis
   queue:
-    image: php:8.1-fpm
+    image: php:8.2-fpm
     container_name: default-structure-queue
     restart: always
     command: php artisan queue:work
