@@ -36,7 +36,7 @@ services:
       - redis
 
   schedule:
-    image: ibrunotome/php:7.4
+    image: ibrunotome/php:8.0
     container_name: modular-structure-schedule
     restart: always
     command:
@@ -57,7 +57,7 @@ services:
       - redis
 
   queue:
-    image: ibrunotome/php:7.4
+    image: ibrunotome/php:8.0
     container_name: modular-structure-queue
     restart: always
     command: php artisan horizon
