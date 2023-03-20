@@ -3,7 +3,7 @@ WORKDIR /app
 COPY . /app 
 RUN composer install --prefer-dist --classmap-authoritative --no-dev
 
-FROM php:8.0.3-apache-buster
+FROM php:8.2.4-apache-buster
 RUN docker-php-ext-install pdo pdo_pgsql pdo_mysql && pecl install redis
 
 COPY --from=build /app /var/www/
