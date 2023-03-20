@@ -19,7 +19,7 @@
         "spatie/laravel-collection-macros": "^7.0",
         "guzzlehttp/guzzle": "^7.2",
         "spatie/laravel-package-tools": "^1.12",
-        "illuminate/contracts": "^8.0|^9.0"
+        "illuminate/contracts": "10.4.1"
     },
     "autoload": {
         "files": [
