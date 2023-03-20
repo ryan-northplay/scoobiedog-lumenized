@@ -1,4 +1,4 @@
-FROM alpine:3.16 as main
+FROM alpine:3.17 as main
 
 LABEL maintainer="Jorge Arco <jorge.arcoma@gmail.com>"
 
