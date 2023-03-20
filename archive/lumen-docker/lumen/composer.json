@@ -11,7 +11,7 @@
         "datto/json-rpc": "^6.1",
         "datto/json-rpc-http": "^5.0",
         "flipbox/lumen-generator": "^9.1",
-        "laravel/lumen-framework": "^9.0",
+        "laravel/lumen-framework": "^10.0",
         "tymon/jwt-auth": "dev-develop"
     },
     "autoload": {
