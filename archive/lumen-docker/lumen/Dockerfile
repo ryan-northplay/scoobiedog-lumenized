@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:8.2-rc-zts-buster
 
 WORKDIR /var/www
 
