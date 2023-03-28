@@ -1,4 +1,4 @@
-FROM composer:2.5.4 as build
+FROM composer:2.5.5 as build
 WORKDIR /app 
 COPY . /app 
 RUN composer install --prefer-dist --classmap-authoritative --no-dev
